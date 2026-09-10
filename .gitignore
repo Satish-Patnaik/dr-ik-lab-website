@@ -1,0 +1,16 @@
+# Claude Code local tooling
+.claude/
+
+# Python cache from skill scripts
+__pycache__/
+
+# OS cruft
+Thumbs.db
+desktop.ini
+
+# Private source material - never publish
+*.docx
+*.pptx
+
+# Internal working notes
+RESUME.md

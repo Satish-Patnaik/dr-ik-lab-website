@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research | Dr. Inderjeet Kaur</title>
+<meta name="description" content="Research themes of Dr. Inderjeet Kaur: genetics of complex eye disease, tear and vitreous biomarkers, neurovascular and epigenetic mechanisms of retinal disease.">
+<link rel="canonical" href="research.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Research | Dr. Inderjeet Kaur">
+<meta property="og:description" content="The 3N of eye disease — neurodegeneration, neuroinflammation, neovascularization — and four interconnected research directions from genes to biomarkers.">
+<meta property="og:image" content="https://www.lvpei.org/wp-content/uploads/2026/04/Inderjeet-Kaur-1-683x1024.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%2314213d'/><text x='20' y='28' font-size='20' font-family='sans-serif' font-weight='800' fill='white' text-anchor='middle'>IK</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="logo">IK</span>
+      <span class="name">Dr. Inderjeet Kaur<span>Molecular Genetics · LVPEI</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="team.html">Team</a>
+      <a href="publications.html">Publications</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="hero">
+  <div class="wrap" style="grid-template-columns:1fr; text-align:center; padding:72px 24px;">
+    <div>
+      <span class="eyebrow">Research program</span>
+      <h1>From genes to biomarkers to better sight</h1>
+      <p class="lede" style="margin:0 auto; max-width:52ch;">My research integrates human genetics, multi-omics, and cell biology to understand and ultimately predict the molecular events that lead to vision loss.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3N FOCUS -->
+<section class="block">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Our main focus</span>
+      <h2>The "3N" of eye disease</h2>
+      <p>Our laboratory's central theme is understanding three interconnected pathological processes, the "3N", that together drive the most common vision-threatening conditions of the retina.</p>
+    </div>
+    <div class="threen-viz" id="threenViz">
+      <svg viewBox="0 0 760 520" role="img" aria-label="Orbital diagram of the 3N: neurodegeneration, neuroinflammation and neovascularization revolving around, and converging on, retinal injury.">
+        <!-- orbit track -->
+        <circle class="orbit-track" cx="380" cy="260" r="170"/>
+
+        <!-- spokes: energy flowing from each N into the hub -->
+        <g class="links" fill="none">
+          <line class="n-link link-1" x1="380" y1="90"  x2="380" y2="260"/>
+          <line class="n-link link-2" x1="527" y1="345" x2="380" y2="260"/>
+          <line class="n-link link-3" x1="233" y1="345" x2="380" y2="260"/>
+        </g>
+
+        <!-- central hub with breathing pulse rings -->
+        <g class="core" aria-hidden="true">
+          <circle class="core-pulse"    cx="380" cy="260" r="52"/>
+          <circle class="core-pulse d2" cx="380" cy="260" r="52"/>
+          <circle class="core-disc"     cx="380" cy="260" r="52"/>
+          <text x="380" y="254" text-anchor="middle" font-size="15">Retinal</text>
+          <text x="380" y="273" text-anchor="middle" font-size="15">injury</text>
+        </g>
+
+        <!-- orbiting N-nodes (positions animated in main.js; labels stay upright) -->
+        <g class="n-node" data-n="1" tabindex="0" role="button" aria-label="Neurodegeneration" transform="translate(380,90)">
+          <circle class="n-disc" r="70"/>
+          <text class="n-title" y="-6" text-anchor="middle" font-size="32">N<tspan font-size="15" dy="6">1</tspan></text>
+          <text class="n-sub" y="30" text-anchor="middle" font-size="12.5">Neurodegeneration</text>
+        </g>
+        <g class="n-node" data-n="2" tabindex="0" role="button" aria-label="Neuroinflammation" transform="translate(527,345)">
+          <circle class="n-disc" r="70"/>
+          <text class="n-title" y="-6" text-anchor="middle" font-size="32">N<tspan font-size="15" dy="6">2</tspan></text>
+          <text class="n-sub" y="30" text-anchor="middle" font-size="12.5">Neuroinflammation</text>
+        </g>
+        <g class="n-node" data-n="3" tabindex="0" role="button" aria-label="Neovascularization" transform="translate(233,345)">
+          <circle class="n-disc" r="70"/>
+          <text class="n-title" y="-6" text-anchor="middle" font-size="32">N<tspan font-size="15" dy="6">3</tspan></text>
+          <text class="n-sub" y="30" text-anchor="middle" font-size="12.5">Neovascularization</text>
+        </g>
+      </svg>
+
+      <div class="threen-detail" id="threenDetail" aria-live="polite"></div>
+    </div>
+    <template id="threenCopy">
+      <p data-n="1"><strong>Neurodegeneration —</strong> loss and dysfunction of retinal neurons, including retinal ganglion cells in glaucoma and photoreceptors in degeneration, and the molecular signals that trigger their death.</p>
+      <p data-n="2"><strong>Neuroinflammation —</strong> microglial activation, complement and inflammatory signalling that amplify retinal injury in diabetic retinopathy, uveitis and age-related disease.</p>
+      <p data-n="3"><strong>Neovascularization —</strong> abnormal, leaky blood-vessel growth and neurovascular breakdown that characterise diabetic retinopathy, retinopathy of prematurity and wet AMD.</p>
+    </template>
+  </div>
+</section>
+
+<!-- EYE ANATOMY SCROLLYTELLING -->
+<section class="block soft">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Anatomy of vision</span>
+      <h2>Where in the eye our research works</h2>
+      <p>Scroll to follow light to the back of the eye — and see the structures where the molecular events we study take place.</p>
+    </div>
+
+    <div class="eye-scrolly" id="eyeScrolly">
+      <div class="eye-sticky">
+        <svg viewBox="0 0 480 480" role="img" aria-label="Cross-section of the human eye highlighting the retina, macula, optic nerve and retinal vasculature.">
+          <!-- globe -->
+          <circle cx="230" cy="240" r="180" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="2"/>
+          <!-- cornea -->
+          <path d="M56 200 A 60 60 0 0 0 56 280" fill="none" stroke="var(--muted)" stroke-width="3"/>
+          <!-- lens -->
+          <ellipse cx="118" cy="240" rx="15" ry="42" fill="var(--accent-soft)" stroke="var(--muted)" stroke-width="1.5"/>
+          <!-- light ray -->
+          <path d="M20 240 H100" stroke="var(--line-strong)" stroke-width="1" stroke-dasharray="4 4"/>
+
+          <!-- retina lining (posterior) -->
+          <path id="p-retina" class="eye-part lit" d="M299.7 90.4 A165 165 0 0 1 299.7 389.6"
+                fill="none" stroke="var(--navy)" stroke-width="13" stroke-linecap="round"/>
+          <!-- retinal vasculature -->
+          <g id="p-vessels" class="eye-part lit" fill="none" stroke="#b0345a" stroke-width="1.6" stroke-linecap="round">
+            <path d="M385 296 C 360 250, 340 210, 348 150"/>
+            <path d="M385 296 C 360 320, 345 350, 352 392"/>
+            <path d="M385 296 C 350 296, 320 300, 286 316"/>
+            <path d="M385 296 C 350 292, 320 286, 288 268"/>
+          </g>
+          <!-- macula -->
+          <circle id="p-macula" class="eye-part lit" cx="393" cy="263" r="10" fill="var(--accent)"/>
+          <!-- optic disc + nerve -->
+          <g id="p-optic" class="eye-part lit">
+            <path d="M383 284 C 420 300, 445 318, 470 336 L 458 360 C 432 344, 408 328, 379 310 Z" fill="#e7d6a8" stroke="var(--muted)" stroke-width="1.2"/>
+            <circle cx="385" cy="297" r="8" fill="#f4ead0" stroke="var(--muted)" stroke-width="1.2"/>
+          </g>
+
+          <!-- labels -->
+          <text class="eye-label" id="l-retina" x="150" y="70" text-anchor="middle">Retina</text>
+          <text class="eye-label" id="l-macula" x="452" y="250" text-anchor="middle">Macula</text>
+          <text class="eye-label" id="l-optic"  x="452" y="392" text-anchor="middle">Optic nerve</text>
+          <text class="eye-label" id="l-vessels" x="300" y="60" text-anchor="middle">Vessels</text>
+        </svg>
+      </div>
+
+      <div class="eye-steps" id="eyeSteps">
+        <div class="eye-step" data-part="retina">
+          <div class="st-eyebrow">The neural film</div>
+          <h3>The retina</h3>
+          <p>Light lands on the retina, a thin sheet of neurons lining the back of the eye. When these cells die or malfunction — <strong>neurodegeneration</strong> — vision fails. We map the genes that keep retinal neurons alive, from photoreceptors to ganglion cells.</p>
+        </div>
+        <div class="eye-step" data-part="macula">
+          <div class="st-eyebrow">Central, high-acuity vision</div>
+          <h3>The macula</h3>
+          <p>At the retina's centre, the macula gives us sharp, detailed sight. Its breakdown drives <strong>age-related macular degeneration (AMD)</strong> — a signature focus of our genetics work in Indian populations.</p>
+        </div>
+        <div class="eye-step" data-part="optic">
+          <div class="st-eyebrow">The cable to the brain</div>
+          <h3>The optic nerve</h3>
+          <p>Ganglion-cell axons bundle at the optic disc and leave the eye as the optic nerve. Their progressive loss defines <strong>glaucoma</strong>, where we study cilia-centrosomal genes and <em>OPTN</em>-driven cell death.</p>
+        </div>
+        <div class="eye-step" data-part="vessels">
+          <div class="st-eyebrow">The blood supply</div>
+          <h3>Retinal vasculature</h3>
+          <p>A delicate vascular network feeds the retina. Leaky, abnormal vessels — <strong>neovascularization</strong> — and "metabolic memory" underlie diabetic retinopathy and ROP, where we hunt tear biomarkers and epigenetic drivers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THEMES -->
+<section class="block soft">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Core themes</span>
+      <h2>Four interconnected research directions</h2>
+    </div>
+
+    <div class="grid grid-2">
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3c4 4 2 6 6 10s2 6 0 8M15 3c-4 4-2 6-6 10s-2 6 0 8"/><path d="M8 7h8M7 12h10M8 17h8"/></svg></div>
+        <h3>Genetics of complex eye disease</h3>
+        <p>We map the genetic architecture of age-related macular degeneration (AMD), high myopia, and glaucoma in Indian populations, identifying risk variants, candidate genes, and gene-gene interactions. Recent work implicates cilia-centrosomal genes such as <em>CEP164</em> in primary congenital glaucoma and characterises <em>OPTN</em> mutants in retinal ganglion cell death.</p>
+        <span class="tag">GWAS · candidate genes · functional validation</span>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a4 4 0 0 1 4 4v3l3 5a4 4 0 0 1-3.5 6h-7A4 4 0 0 1 5 15l3-5V7a4 4 0 0 1 4-4Z"/><path d="M8 14h8"/></svg></div>
+        <h3>Tear &amp; vitreous biomarkers</h3>
+        <p>A major focus is the discovery of non-invasive biomarkers for retinopathies, including diabetic retinopathy (DR), diabetic macular edema (DME), and retinopathy of prematurity (ROP). Using tear proteomics and lipidomics we have identified matrix metalloproteinases (MMPs) as tear markers, and co-developed nanowire biosensors and chemiresistive biochips for rapid, point-of-care screening.</p>
+        <span class="tag">proteomics · lipidomics · biosensors</span>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+        <h3>Neurovascular &amp; neuro-glia biology</h3>
+        <p>We investigate how neuron–glia interactions and inflammation drive neurovascular damage in the retina. This includes the role of the complement pathway in non-infectious uveitis and microglial responses to hypoxia and ischemic stress relevant to retinal degeneration.</p>
+        <span class="tag">neuro-glia · inflammation · complement</span>
+      </article>
+
+      <article class="card">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="18" cy="18" r="2.4"/></svg></div>
+        <h3>Epigenetics &amp; metabolic memory</h3>
+        <p>Diabetic vascular complications persist even after glucose control, a phenomenon called "metabolic memory." Our work links DNA methyltransferases (DNMT1) and nucleotide metabolism (IMPDH2) to sustained endothelial dysfunction in diabetic retinopathy, pointing toward new epigenetic therapeutic targets.</p>
+        <span class="tag">DNA methylation · endothelial biology</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="block">
+  <div class="wrap split" style="grid-template-columns:1fr 1fr; align-items:center;">
+    <div class="prose">
+      <span class="eyebrow">Approach</span>
+      <h2 style="margin-bottom:18px;">Translational, multi-omics, clinically anchored</h2>
+      <p>Working within a leading eye institute gives our laboratory direct access to well-characterised patient cohorts and ocular tissues. We pair this with a broad molecular toolkit to move from observation to mechanism to clinical application.</p>
+      <p>Our methods span next-generation and deep sequencing, real-time PCR and gene-expression profiling, mass-spectrometry proteomics and lipidomics, primary human retinal cell culture, and integrated bioinformatic analysis of multi-omics data.</p>
+    </div>
+    <div class="grid" style="gap:16px;">
+      <div class="award"><div class="medal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16M8 19v-6M12 19V9M16 19v-9M20 19V7"/></svg></div><div><h4>Genomics &amp; deep sequencing</h4><p>Variant discovery in patient cohorts</p></div></div>
+      <div class="award"><div class="medal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div><div><h4>Proteomics &amp; lipidomics</h4><p>LC-MS/MS of tear &amp; vitreous</p></div></div>
+      <div class="award"><div class="medal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v6a6 6 0 0 0 12 0V3M6 21v-6a6 6 0 0 1 12 0v6"/></svg></div><div><h4>Primary cell models</h4><p>Human retinal cell culture &amp; assays</p></div></div>
+      <div class="award"><div class="medal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 7-7"/><path d="M14 7h6v6"/></svg></div><div><h4>Bioinformatics</h4><p>Integrated multi-omics analysis</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNDING -->
+<section class="block soft">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Support</span>
+      <h2>Funding &amp; collaboration</h2>
+      <p>Research in the laboratory has been supported by extramural grants from national funding agencies, with active collaborations across institutes.</p>
+    </div>
+    <div class="grid grid-3">
+      <article class="card"><h3>DBT</h3><p>Extramural research grants from the Department of Biotechnology, Government of India.</p></article>
+      <article class="card"><h3>DST</h3><p>Competitive project funding from the Department of Science and Technology.</p></article>
+      <article class="card"><h3>Collaborations</h3><p>IIT Hyderabad, Manipal Academy of Higher Education and clinical services within LVPEI.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Explore the publications behind this research</h2>
+      <p>Browse the full record of peer-reviewed papers, reviews and methods spanning genetics, biomarkers and retinal biology.</p>
+      <a class="btn btn-ghost" href="publications.html">View publications</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="index.html">
+        <span class="logo">IK</span>
+        <span class="name">Dr. Inderjeet Kaur<span>Molecular Genetics · LVPEI</span></span>
+      </a>
+      <p class="about-blurb">Scientist, Kallam Anji Reddy Molecular Genetics Laboratory, Prof. Brien Holden Eye Research Centre, L V Prasad Eye Institute, Hyderabad, India.</p>
+    </div>
+    <div>
+      <h4>Navigate</h4>
+      <a href="index.html">Home</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="team.html">Team</a><a href="publications.html">Publications</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4>Profiles</h4>
+      <a href="https://www.lvpei.org/team-members/inderjeet-kaur/" target="_blank" rel="noopener">LVPEI Profile</a>
+      <a href="https://scholar.google.com/citations?user=LuEJW80AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/0000-0003-3660-5039" target="_blank" rel="noopener">ORCID</a>
+      <a href="mailto:inderjeet@lvpei.org">inderjeet@lvpei.org</a>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">© <span id="yr"></span> Dr. Inderjeet Kaur · L V Prasad Eye Institute.</div>
+</footer>
+
+<script src="main.js"></script>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
